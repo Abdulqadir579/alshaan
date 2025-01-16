@@ -15,11 +15,6 @@ export default function Navbar() {
     window.open('https://wa.me/971562145901', '_blank');
   };
 
-  const handleHomeClick = (e: React.MouseEvent) => {
-    e.preventDefault();
-    router.refresh();
-  };
-
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -45,8 +40,7 @@ export default function Navbar() {
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
             <Link 
-              href="/" 
-              onClick={handleHomeClick}
+              href="/"
               className="text-foreground/60 hover:text-primary transition-colors"
             >
               Home
@@ -80,11 +74,8 @@ export default function Navbar() {
           <div className="md:hidden fixed top-16 left-0 right-0 bg-background/95 backdrop-blur-sm border-b shadow-lg px-4 py-4">
             <div className="flex flex-col space-y-4 container mx-auto">
               <Link 
-                href="/" 
-                onClick={(e) => {
-                  handleHomeClick(e);
-                  setIsMenuOpen(false);
-                }}
+                href="/"
+                onClick={() => setIsMenuOpen(false)}
                 className="text-foreground/60 hover:text-primary transition-colors py-2"
               >
                 Home

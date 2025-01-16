@@ -33,7 +33,7 @@ export default function AboutUs() {
                 <h2 className="text-2xl font-semibold">Our Passion</h2>
               </div>
               <p className="text-lg leading-relaxed text-muted-foreground">
-                At Alshaan Events, we're passionate about creating events that bring people together. Whether it's a corporate meeting, a wedding, or a personal celebration, our goal is to make the planning process easy and the event memorable.
+                At Alshaan Events, we're passionate about creating events that bring people together. Our expertise spans across various domains, from corporate meetings and seminars to formal business gatherings. We take pride in our achievements in delivering exceptional experiences for weddings, personal celebrations, and professional conferences. Whether it's a formal business meeting that demands precision and professionalism, or a grand celebration that requires creative flair, our goal is to make the planning process seamless and the event truly memorable.
               </p>
 
               <div className="flex items-center gap-4 text-[#C5A47E]">
@@ -41,7 +41,7 @@ export default function AboutUs() {
                 <h2 className="text-2xl font-semibold">Our Approach</h2>
               </div>
               <p className="text-lg leading-relaxed text-muted-foreground">
-                With a focus on understanding your needs, we handle the details so you can focus on enjoying the moment. From venue selection to final touches, we're here to help every step of the way.
+                Our goal is to understand the client's perspective and make the planning process easy and event memorable. With a focus on understanding your needs, we handle the details so you can focus on enjoying the moment. From venue selection to final touches, we're here to help every step of the way.
               </p>
 
               <div className="flex items-center gap-4 text-[#C5A47E]">
